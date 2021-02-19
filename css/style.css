@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  body,h1,h2,h3,h4,h5,h6,button {font-family: "Space Grotesk", sans-serif;}
+  
+ 
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #ffff;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  
+ 
+  ul li:hover {
+    background: darkblue;
+    text-transform: uppercase;
+    color:#fff; 
+
+  }
+  
+  
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: magenta;
+    color: white;
+  }
+  
+  
+  .header {
+    background-color: #63cde8;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-color: darkblue;
+    border-style: solid;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style the "Add" button */
+  #addBtn {
+    padding: 30px;
+    border-radius: 50%;
+    background: magenta;
+    font-size: 1.25em;
+    float: left;
+    font-family: "Space Grotesk", sans-serif;
+   
+  }
+  
+  #addBtn:hover {
+    background-color: darkblue;
+    color: #fff;
+
+  }
+
+  .btn{
+    color:#fff;
+    background:blue;
+  }
+
+  
